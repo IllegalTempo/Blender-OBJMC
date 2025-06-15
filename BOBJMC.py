@@ -1,10 +1,10 @@
 bl_info = {
     "name": "OBJ MC Blender",
-    "author": "FAXX Weapon System",
+    "author": "IllegalTempo",
     "version": (1, 0),
     "blender": (3, 6, 0),
-    "location": "View3D > Sidebar > FAXX",
-    "description": "Minecraft OBJ converter and utilities for FAXX Weapon System",
+    "location": "View3D > Sidebar > OBJMC",
+    "description": "Export to Minecraft easier through OBJMC (Thanks to Godlander)",
     "category": "Import-Export"
 }
 
@@ -47,7 +47,7 @@ class OBJMC_PT_main_panel(Panel):
     bl_idname = "OBJMC_PT_main_panel"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'FAXX'
+    bl_category = 'OBJMC'
 
     def draw(self, context):
         layout = self.layout
